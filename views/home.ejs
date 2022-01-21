@@ -1,0 +1,37 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion d'utilisateurs</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <% users.forEach(user => { %>
+        <%-user.email %>
+       <% }) %>
+</body>
+</html> -->
+<%- include('layouts/header.ejs')  %>
+<%- include('layouts/navbar.ejs')  %>
+<div class="container ">
+    <div class="text-center">
+      
+        <h1 >Bienvenu</h1>
+        <hr>
+        <h2>Les statistiques</h2>
+    </div>
+<div class="row text-center gap-3 mt-4">
+    <h2 class="col-md  alert alert-primary "><strong class="text-primary"> </strong> Utilisateurs</h2>
+    <h2 class="col-md alert alert-danger "><strong class="text-danger "> </strong> Departements</h2>
+</div>
+<br>
+<hr>
+<h2 class="text-center">Pourcentage d'utilisateurs dans chaque département</h2>
+<br>
+
+
+</div>
+
+<%- include('layouts/footer.ejs')  %>
